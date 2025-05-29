@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "d111403e2ec449f2bc8acee5"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "OnePlus Nord",
+  "deviceType": "Smartphone",
+  "specs": {
+    "manufacturer": "OnePlus",
+    "model": "Nord",
+    "vram": null,
+    "memoryTotal": null
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-14T16:40:26.581746Z"
+      },
+      "end": {
+        "$date": "2025-04-17T16:40:26.581746Z"
+      },
+      "_id": {
+        "$oid": "9395d7657eea403880497d70"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-14T16:40:26.581746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-14T16:40:26.581746Z"
+  },
+  "__v": 0
+}

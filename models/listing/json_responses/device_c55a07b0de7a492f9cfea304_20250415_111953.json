@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "c55a07b0de7a492f9cfea304"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "OnePlus 11",
+  "deviceType": "Smartphone",
+  "specs": {
+    "manufacturer": "OnePlus",
+    "model": "11",
+    "vram": null,
+    "memoryTotal": null
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-15T11:19:53.270763Z"
+      },
+      "end": {
+        "$date": "2025-04-18T11:19:53.270763Z"
+      },
+      "_id": {
+        "$oid": "8255c9c94f804c75a6e78271"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-15T11:19:53.270763Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T11:19:53.270763Z"
+  },
+  "__v": 0
+}

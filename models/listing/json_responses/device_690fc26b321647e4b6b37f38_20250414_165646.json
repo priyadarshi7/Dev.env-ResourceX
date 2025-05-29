@@ -1,0 +1,17 @@
+{
+  "deviceName": "OnePlus Nord",
+  "deviceType": "Smartphone",
+  "specs": {
+    "manufacturer": "OnePlus",
+    "model": "Nord",
+    "vram": null,
+    "memoryTotal": null
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "isAvailable": false
+}

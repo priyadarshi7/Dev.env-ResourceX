@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "c2804a90157746fa8ea4221c"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "OnePlus 7T",
+  "deviceType": "Smartphone",
+  "specs": {
+    "manufacturer": "OnePlus",
+    "model": "7T",
+    "vram": null,
+    "memoryTotal": null
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-14T16:25:40.740745Z"
+      },
+      "end": {
+        "$date": "2025-04-17T16:25:40.740745Z"
+      },
+      "_id": {
+        "$oid": "3d39b9e171924b7c8aa6a2d8"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-14T16:25:40.740745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-14T16:25:40.740745Z"
+  },
+  "__v": 0
+}

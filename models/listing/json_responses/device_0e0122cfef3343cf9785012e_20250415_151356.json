@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "0e0122cfef3343cf9785012e"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "Smartphone",
+  "deviceType": "GPU",
+  "specs": {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Flip4",
+    "vram": "",
+    "memoryTotal": ""
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-15T15:13:56.922585Z"
+      },
+      "end": {
+        "$date": "2025-04-18T15:13:56.922585Z"
+      },
+      "_id": {
+        "$oid": "5999a11af6cc498395e447cf"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-15T15:13:56.922585Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T15:13:56.922585Z"
+  },
+  "__v": 0
+}

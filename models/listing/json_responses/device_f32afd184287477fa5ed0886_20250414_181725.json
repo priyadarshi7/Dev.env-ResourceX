@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "f32afd184287477fa5ed0886"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "OnePlus 7T Pro",
+  "deviceType": "Phone",
+  "specs": {
+    "manufacturer": "OnePlus",
+    "model": "7T Pro",
+    "vram": null,
+    "memoryTotal": null
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-14T18:17:25.665837Z"
+      },
+      "end": {
+        "$date": "2025-04-17T18:17:25.665837Z"
+      },
+      "_id": {
+        "$oid": "63beb2364f144fc9861418fc"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-14T18:17:25.665837Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-14T18:17:25.665837Z"
+  },
+  "__v": 0
+}

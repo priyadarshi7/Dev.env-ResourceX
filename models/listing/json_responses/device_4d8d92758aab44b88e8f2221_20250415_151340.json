@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "4d8d92758aab44b88e8f2221"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "Smartphone",
+  "deviceType": "GPU",
+  "specs": {
+    "manufacturer": "Samsung",
+    "model": "Galaxy Z Flip 3",
+    "vram": "Unknown",
+    "memoryTotal": "Unknown"
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-15T15:13:40.319743Z"
+      },
+      "end": {
+        "$date": "2025-04-18T15:13:40.319743Z"
+      },
+      "_id": {
+        "$oid": "4d2d9f52f29041868ef46c64"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-15T15:13:40.319743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T15:13:40.319743Z"
+  },
+  "__v": 0
+}

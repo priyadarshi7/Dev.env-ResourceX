@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "3e7e3901dcd541e69e8f6e28"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "Elf King",
+  "deviceType": "Electronic Cigarette",
+  "specs": {
+    "manufacturer": "Elf Bar",
+    "model": "Elf King",
+    "vram": null,
+    "memoryTotal": null
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-15T11:54:56.790662Z"
+      },
+      "end": {
+        "$date": "2025-04-18T11:54:56.790662Z"
+      },
+      "_id": {
+        "$oid": "3279e284020a4b0f8f1071b7"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-15T11:54:56.790777Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T11:54:56.790777Z"
+  },
+  "__v": 0
+}

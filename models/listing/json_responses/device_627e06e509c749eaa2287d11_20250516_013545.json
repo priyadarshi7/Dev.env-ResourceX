@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "627e06e509c749eaa2287d11"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "iPhone 11",
+  "deviceType": "GPU",
+  "specs": {
+    "manufacturer": "Apple",
+    "model": "A13 Bionic GPU",
+    "vram": "4 GB",
+    "memoryTotal": ""
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-05-16T01:35:45.606796Z"
+      },
+      "end": {
+        "$date": "2025-05-19T01:35:45.606796Z"
+      },
+      "_id": {
+        "$oid": "76a81b72a60f4504952bb255"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-05-16T01:35:45.606796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T01:35:45.606796Z"
+  },
+  "__v": 0
+}

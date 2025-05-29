@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "f3f3fab7814c4fd7af90f40e"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "ELFBAR",
+  "deviceType": "GPU",
+  "specs": {
+    "manufacturer": "ELFBAR",
+    "model": "Not Available",
+    "vram": "Not Available",
+    "memoryTotal": "Not Available"
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-15T11:55:06.879580Z"
+      },
+      "end": {
+        "$date": "2025-04-18T11:55:06.879580Z"
+      },
+      "_id": {
+        "$oid": "439670746f65410993fb1383"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-15T11:55:06.879580Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T11:55:06.879580Z"
+  },
+  "__v": 0
+}

@@ -1,0 +1,43 @@
+{
+  "_id": {
+    "$oid": "c63acf70e3cd4654b7538249"
+  },
+  "owner": {
+    "$oid": "67fb74763aa6907125bda830"
+  },
+  "deviceName": "ASUS ROG Laptop",
+  "deviceType": "GPU",
+  "specs": {
+    "manufacturer": "ASUS",
+    "model": "ROG",
+    "vram": "",
+    "memoryTotal": ""
+  },
+  "performance": 79.970703125,
+  "price": 200,
+  "availableHours": [
+    {
+      "start": {
+        "$date": "2025-04-15T11:55:33.143389Z"
+      },
+      "end": {
+        "$date": "2025-04-18T11:55:33.143389Z"
+      },
+      "_id": {
+        "$oid": "ef23d3476d5c446db6009199"
+      }
+    }
+  ],
+  "isAvailable": false,
+  "location": "Raipur, India",
+  "acceptedTaskTypes": [
+    "AI Training"
+  ],
+  "createdAt": {
+    "$date": "2025-04-15T11:55:33.143389Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T11:55:33.143389Z"
+  },
+  "__v": 0
+}
