@@ -23,21 +23,6 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 
 ![Project Overview](upload-project-overview-image-here)
 
-### 🧠 What is Dev.env-ResourceX?
-
-Dev.env-ResourceX is not just a modular development environment—it's also a **Resource Exchange System**. This means you can:
-
-* Seamlessly share, manage, and access development resources like scripts, models, assets, and configuration files.
-* Use the platform to **upload, fetch, or update resources** from various development domains (e.g., web, ML, graphics).
-* Enable **cross-functional collaboration** between frontend, backend, and data teams through a unified structure.
-
-### 🔧 How to Use the Resource Exchange:
-
-1. **Upload a Resource:** Navigate to the desired module (e.g., `backend/`, `models/`, etc.) and add the resource.
-2. **Tag it:** Use metadata files to categorize and describe the resource.
-3. **Sync:** Pull updated resources or push your own using provided CLI or API tools.
-4. **Collaborate:** Team members can fetch the latest version of assets via the resource sync interface.
-
 ![Resource Exchange Flow](upload-resource-exchange-diagram-here)
 
 <p align="center">
