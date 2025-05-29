@@ -1,5 +1,10 @@
 # Dev.env-ResourceX
-🔴 Live Demo Available: https://www.youtube.com/watch?v=TOljqkl3aoM
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=TOljqkl3aoM" target="_blank">
+    <img src="https://chatgpt.com/s/m_68384504394c8191bdc3a7dc28c3ffd3" alt="Watch the Demo Video" width="720">
+  </a>
+</p>
+
 Watch how ResourceX discovers idle compute resources, distributes demanding workloads like AI training and 3D rendering, and returns results securely — fully automated, fully decentralized!
 
 **Problem Statement** 
