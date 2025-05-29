@@ -1,6 +1,27 @@
 # Dev.env-ResourceX
 
-**Dev.env-ResourceX** is a modular, multi-language development environment resource manager. It provides a structured backend, frontend, and model management system, aiming to streamline development workflows for projects involving Python, JavaScript, and more.
+**Dev.env-ResourceX** is a modular, multi-language development environment and resource exchange manager. It provides a structured backend, frontend, and model management system, aiming to streamline development workflows for projects involving JavaScript, Python, and other technologies.
+
+![Project Overview](upload-project-overview-image-here)
+
+### 🧠 What is Dev.env-ResourceX?
+
+Dev.env-ResourceX is not just a modular development environment—it's also a **Resource Exchange System**. This means you can:
+
+* Seamlessly share, manage, and access development resources like scripts, models, assets, and configuration files.
+* Use the platform to **upload, fetch, or update resources** from various development domains (e.g., web, ML, graphics).
+* Enable **cross-functional collaboration** between frontend, backend, and data teams through a unified structure.
+
+### 🔧 How to Use the Resource Exchange:
+
+1. **Upload a Resource:** Navigate to the desired module (e.g., `backend/`, `models/`, etc.) and add the resource.
+2. **Tag it:** Use metadata files to categorize and describe the resource.
+3. **Sync:** Pull updated resources or push your own using provided CLI or API tools.
+4. **Collaborate:** Team members can fetch the latest version of assets via the resource sync interface.
+
+![Resource Exchange Flow](upload-resource-exchange-diagram-here)
+
+🎥 [Watch the Demo Video](insert-demo-video-link-here)
 
 ---
 
@@ -11,17 +32,15 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Requirements](#requirements)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
 
 ---
 
 ## 🚀 Features
 
 * **Modular Design**: Backend, frontend, and models are organized for scalability.
-* **Multi-language Support**: Primarily Python, with JavaScript and other technologies.
+* **Multi-language Support**: JavaScript (Node.js) backend, Python models, and HTML/JS frontend.
 * **Resource Management**: Easily manage development resources and dependencies.
+* **Resource Exchange System**: Collaborative and scalable resource sharing.
 
 ---
 
@@ -29,7 +48,7 @@
 
 ```
 Dev.env-ResourceX/
-├── backend/      # Backend code and services (Python)
+├── backend/      # Backend code and services (Node.js)
 ├── blender/      # Blender-related scripts or integrations
 ├── frontend/     # Frontend code (JavaScript/HTML)
 ├── models/       # Data models or machine learning models
@@ -46,15 +65,13 @@ git clone https://github.com/priyadarshi7/Dev.env-ResourceX.git
 cd Dev.env-ResourceX
 ```
 
-### Backend Setup:
+### Backend Setup (Node.js):
 
-Navigate to the `backend/` directory and follow its setup instructions (e.g., install Python dependencies, set up virtual environment).
+Navigate to the `backend/` directory and install dependencies.
 
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+npm install
 ```
 
 ### Frontend Setup:
@@ -72,7 +89,7 @@ If using Blender scripts, ensure Blender is installed and properly configured.
 
 ---
 
-## 🧹 Usage
+## 🧩 Usage
 
 ### Backend:
 
@@ -80,7 +97,7 @@ Run the backend server from the `backend/` directory:
 
 ```bash
 cd backend
-python app.py  # or the main server file
+npm start
 ```
 
 ### Frontend:
@@ -103,10 +120,7 @@ Use or train models as described in the `models/` directory's documentation.
 
 ## 📦 Requirements
 
-* Python 3.8+
 * Node.js & npm
+* Python 3.8+ (for models)
 * Blender (optional, for Blender scripts)
-* Other dependencies as specified in `requirements.txt` or `package.json`
-
----
-
+* Other dependencies as specified in `package.json` or `requirements.txt`
