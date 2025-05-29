@@ -87,7 +87,7 @@ cd ../frontend
 npm install
 ```
 
-### (Optional) Blender Setup:
+### Blender Setup:
 
 If using Blender scripts, ensure Blender is installed and properly configured.
 
