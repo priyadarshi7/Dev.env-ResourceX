@@ -33,6 +33,7 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
     <img src="assets/ChatGPT Image May 29, 2025 at 05_23_34 PM.png" alt="Watch the Demo Video" width="720">
   </a>
 </p>
+[![Watch the Demo Video](https://img.youtube.com/vi/TOljqkl3aoM/maxresdefault.jpg)](https://www.youtube.com/watch?v=TOljqkl3aoM)
 
 
 ## Architecture
@@ -44,7 +45,7 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 <p align="center">
   <img src="assets/ChatGPT Image Apr 25, 2025, 12_04_41 PM.png" alt="Alt text" width="720"/>
 </p>
----
+
 
 ## 📚 Table of Contents
 
@@ -152,7 +153,9 @@ Use or train models as described in the `models/` directory's documentation.
 
 ```bash
 cd models
-pip install 0r requirements.txt
+pip install -r requirements.txt
+uvicorn chat:app --reload
+uvicorn terminal:app --reload
 python main.py
 ```
 
