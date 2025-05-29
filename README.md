@@ -8,10 +8,10 @@
 
 Watch how ResourceX discovers idle compute resources, distributes demanding workloads like AI training and 3D rendering, and returns results securely — fully automated, fully decentralized!
 
-**Problem Statement** 
+## Problem Statement
 Access to high-performance computing is expensive and centralized, limiting students, indie developers, and researchers who need to train AI models, render graphics, or handle large data. At the same time, millions of personal devices with powerful CPUs and GPUs sit idle, lacking a secure, trusted, and rewarding way to share their compute power. There's no decentralized, user-friendly platform that connects those who need computing with those who can provide it!
 
-**Current Challenges**
+## Current Challenges
 High cost of cloud compute (AWS, GCP, Azure)
 Limited free access (e.g., Google Colab timeouts)
 No incentive or platform to contribute unused resources
@@ -55,7 +55,6 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 * [Requirements](#requirements)
 
 ---
-
 ## 🚀 Features
 
 * **Modular Design**: Backend, frontend, and models are organized for scalability.
@@ -63,7 +62,16 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 * **Resource Management**: Easily manage development resources and dependencies.
 * **Resource Exchange System**: Collaborative and scalable resource sharing.
 
+## 🔄 Device Interaction Flow
+
+* **Device Listing**: Devices register themselves in the system with specifications and availability status.
+* **Device Browsing & Requesting**: Users can browse available devices and send a request to rent based on task requirements.
+* **Code Dispatch**: Once the request is approved, the task code is securely transmitted to the selected device.
+* **Remote Execution**: The rented device executes the code using its compute resources.
+* **Result Delivery**: The output is sent back to the requester and optionally to the device owner (lender) for transparency or billing.
+
 ---
+
 
 ## 📁 Project Structure
 
