@@ -1,7 +1,16 @@
 
 # Dev.env-ResourceX
 
-**Problem Statement:** Access to high-performance computing is expensive and centralized, limiting students, indie developers, and researchers who need to train AI models, render graphics, or handle large data. At the same time, millions of personal devices with powerful CPUs and GPUs sit idle, lacking a secure, trusted, and rewarding way to share their compute power. There's no decentralized, user-friendly platform that connects those who need computing with those who can provide it!
+**Problem Statement** 
+Access to high-performance computing is expensive and centralized, limiting students, indie developers, and researchers who need to train AI models, render graphics, or handle large data. At the same time, millions of personal devices with powerful CPUs and GPUs sit idle, lacking a secure, trusted, and rewarding way to share their compute power. There's no decentralized, user-friendly platform that connects those who need computing with those who can provide it!
+
+**Current Challenges**
+High cost of cloud compute (AWS, GCP, Azure)
+Limited free access (e.g., Google Colab timeouts)
+No incentive or platform to contribute unused resources
+Privacy & trust concerns with existing peer-to-peer systems
+Exclusion of developers from under-resourced regions
+
 
 **Dev.env-ResourceX** is a modular, multi-language development environment and resource exchange manager. It provides a structured backend, frontend, and model management system, aiming to streamline development workflows for projects involving JavaScript, Python, and other technologies.
 
