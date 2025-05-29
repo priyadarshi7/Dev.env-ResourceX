@@ -101,7 +101,7 @@ Run the backend server from the `backend/` directory:
 
 ```bash
 cd backend
-npm start
+npm run dev
 ```
 
 ### Frontend:
@@ -110,8 +110,7 @@ Serve or build the frontend from the `frontend/` directory:
 
 ```bash
 cd frontend
-npm start     # for development
-npm run build # for production
+npm run dev
 ```
 
 ### Models:
