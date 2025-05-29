@@ -42,7 +42,7 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 
 ## TechStack
 <p align="center">
-  <img src="assets/ChatGPT Image Apr 25, 2025, 12_04_41 PM.png" alt="Alt text" width="720"/>
+  <img src="assets/WhatsApp Image 2025-05-29 at 17.47.33.jpeg" alt="Alt text" width="720"/>
 </p>
 
 
