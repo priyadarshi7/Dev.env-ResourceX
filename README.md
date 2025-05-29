@@ -1,158 +1,80 @@
-<<<<<<< HEAD
-# GitGraphium with AI Backend Integration
-
-A 3D GitHub repository visualizer with AI-powered code exploration and chat capabilities.
-
-## Features
-
-- Interactive 3D visualization of GitHub repositories
-- AI-powered code summaries using Gemini API
-- Chat with your codebase to ask questions about code
-- Semantic code search
-- VR support for immersive code exploration
-
-## Setup
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- Python (v3.8 or higher)
-- A GitHub account (for API access)
-- A Gemini API key (for AI summaries)
-
-### Backend Setup
-
-1. Navigate to the backend directory:
-   ```
-   cd models
-   ```
-
-2. Create a virtual environment:
-   ```
-   python -m venv venv
-   ```
-
-3. Activate the virtual environment:
-   - Windows: `venv\Scripts\activate`
-   - macOS/Linux: `source venv/bin/activate`
-
-4. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-5. Create a `.env` file with your API keys (if needed):
-   ```
-   GROQ_API_KEY=your_groq_api_key
-   ```
-
-6. Start the backend server:
-   ```
-   python chat.py
-   ```
-
-The backend server will run on http://localhost:8000 by default.
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-   ```
-   cd frontend
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Create or update the `.env` file to point to your backend:
-   ```
-   VITE_API_URL=http://localhost:8000
-   ```
-
-4. Start the development server:
-   ```
-   npm run dev
-   ```
-
-The frontend will be available at http://localhost:5173 by default.
-
-## Usage
-
-1. Open your browser and navigate to http://localhost:5173
-2. Enter a GitHub repository URL (e.g., https://github.com/username/repo)
-3. Click "Visualize Repository"
-4. Explore the repository structure in 3D
-5. Click on files to see AI-generated summaries
-6. Use the Chat tab to ask questions about the codebase
-
-## API Keys
-
-- **GitHub Token**: Required for private repositories or to avoid API rate limits
-- **Gemini API Key**: Required for AI-powered code summaries
-
-## VR Mode
-
-To use VR mode:
-1. Ensure you have a compatible VR headset
-2. Connect your headset to your computer
-3. Click the "Enter VR" button in the visualization
-
-## Technologies Used
-
-- Frontend: React, Three.js, TailwindCSS
-- Backend: Python, FastAPI, LangChain
-- AI: Groq, Google Gemini 
-=======
 # Dev.env-ResourceX
-
-**Dev.env-ResourceX** is a modular, multi-language development environment and resource exchange manager. It provides a structured backend, frontend, and model management system, aiming to streamline development workflows for projects involving JavaScript, Python, and other technologies.
-
-![Project Overview](upload-project-overview-image-here)
-
-### 🧠 What is Dev.env-ResourceX?
-
-Dev.env-ResourceX is not just a modular development environment—it's also a **Resource Exchange System**. This means you can:
-
-* Seamlessly share, manage, and access development resources like scripts, models, assets, and configuration files.
-* Use the platform to **upload, fetch, or update resources** from various development domains (e.g., web, ML, graphics).
-* Enable **cross-functional collaboration** between frontend, backend, and data teams through a unified structure.
-
-### 🔧 How to Use the Resource Exchange:
-
-1. **Upload a Resource:** Navigate to the desired module (e.g., `backend/`, `models/`, etc.) and add the resource.
-2. **Tag it:** Use metadata files to categorize and describe the resource.
-3. **Sync:** Pull updated resources or push your own using provided CLI or API tools.
-4. **Collaborate:** Team members can fetch the latest version of assets via the resource sync interface.
-
-![Resource Exchange Flow](upload-resource-exchange-diagram-here)
-
 <p align="center">
   <a href="https://www.youtube.com/watch?v=TOljqkl3aoM" target="_blank">
-    <img src="https://www.youtube.com/watch?v=TOljqkl3aoM/0.jpg" alt="Watch the Demo Video" width="720">
+    <img src="assets/ChatGPT Image May 29, 2025 at 03_26_37 PM.png" alt="Watch the Demo Video" width="720">
   </a>
 </p>
 
+
+Watch how ResourceX discovers idle compute resources, distributes demanding workloads like AI training and 3D rendering, and returns results securely — fully automated, fully decentralized!
+🔗 [Watch the Demo](https://www.youtube.com/watch?v=TOljqkl3aoM)
+
+## Problem Statement
+Access to high-performance computing is expensive and centralized, limiting students, indie developers, and researchers who need to train AI models, render graphics, or handle large data. At the same time, millions of personal devices with powerful CPUs and GPUs sit idle, lacking a secure, trusted, and rewarding way to share their compute power. There's no decentralized, user-friendly platform that connects those who need computing with those who can provide it!
+
+## Current Challenges
+High cost of cloud compute (AWS, GCP, Azure)
+Limited free access (e.g., Google Colab timeouts)
+No incentive or platform to contribute unused resources
+Privacy & trust concerns with existing peer-to-peer systems
+Exclusion of developers from under-resourced regions
+
+***Case-Study***
+Meet Person X – a CS student pushing their AI model to improve, but stuck at 60% accuracy. The lab’s full, cloud credits are gone, and deadlines are closing in.
+
+Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) that mostly sits idle.
+
+🌀 For Users like X: Affordable, on-demand access to GPU, CPU, and storage—no middlemen, no inflated costs.
+
+⚡ For Providers like Y: Turn idle hardware into income. Securely share resources, powered by blockchain and zero-knowledge proofs.
 ---
+## Watch Now : Click on the image below
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=TOljqkl3aoM" target="_blank">
+    <img src="assets/ChatGPT Image May 29, 2025 at 05_23_34 PM.png" alt="Watch the Demo Video" width="720">
+  </a>
+</p>
+🔗 [Watch the Demo](https://www.youtube.com/watch?v=TOljqkl3aoM)
+
+
+## Architecture
+<p align="center">
+  <img src="assets/ChatGPT Image May 29, 2025, 04_42_22 PM.png" alt="Alt text" width="720"/>
+</p>
+
+## TechStack
+<p align="center">
+  <img src="assets/WhatsApp Image 2025-05-29 at 17.47.33.jpeg" alt="Alt text" width="720"/>
+</p>
+
 
 ## 📚 Table of Contents
 
 * [Features](#features)
 * [Project Structure](#project-structure)
+* [Requirements](#requirements)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Requirements](#requirements)
+
 
 ---
-
-## 🚀 Features
+## 🔄 Features
 
 * **Modular Design**: Backend, frontend, and models are organized for scalability.
-* **Multi-language Support**: JavaScript (Node.js) backend, Python models, and HTML/JS frontend.
+* **Multi-language Support**: JavaScript (Node.js) backend, Python models, and React frontend.
 * **Resource Management**: Easily manage development resources and dependencies.
 * **Resource Exchange System**: Collaborative and scalable resource sharing.
 
+## 🔄 Device Interaction Flow
+
+* **Device Listing**: Devices register themselves in the system with specifications and availability status.
+* **Device Browsing & Requesting**: Users can browse available devices and send a request to rent based on task requirements.
+* **Code Dispatch**: Once the request is approved, the task code is securely transmitted to the selected device.
+* **Remote Execution**: The rented device executes the code using its compute resources.
+* **Result Delivery**: The output is sent back to the requester and optionally to the device owner (lender) for transparency or billing.
+
 ---
+
 
 ## 📁 Project Structure
 
@@ -198,6 +120,13 @@ npm install
 If using Blender scripts, ensure Blender is installed and properly configured.
 
 ---
+## 📦 Requirements
+
+* Node.js & npm
+* Python 3.8+ (for models)
+* Blender (optional, for Blender scripts)
+* Other dependencies as specified in `package.json` or `requirements.txt`
+---
 
 ## 🧩 Usage
 
@@ -223,14 +152,17 @@ npm run dev
 
 Use or train models as described in the `models/` directory's documentation.
 
-> **Note:** Refer to individual folder README files (if available) for detailed instructions.
+```bash
+cd models
+pip install -r requirements.txt
+uvicorn chat:app --reload
+uvicorn terminal:app --reload
+python main.py
+cd listing
+python app.py
+```
+
 
 ---
 
-## 📦 Requirements
 
-* Node.js & npm
-* Python 3.8+ (for models)
-* Blender (optional, for Blender scripts)
-* Other dependencies as specified in `package.json` or `requirements.txt`
->>>>>>> 3a414509462d00d915f7bf789b227b9780b53972
