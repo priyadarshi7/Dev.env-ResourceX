@@ -7,6 +7,7 @@
 
 
 Watch how ResourceX discovers idle compute resources, distributes demanding workloads like AI training and 3D rendering, and returns results securely — fully automated, fully decentralized!
+🔗 [Watch the Demo](https://www.youtube.com/watch?v=TOljqkl3aoM)
 
 ## Problem Statement
 Access to high-performance computing is expensive and centralized, limiting students, indie developers, and researchers who need to train AI models, render graphics, or handle large data. At the same time, millions of personal devices with powerful CPUs and GPUs sit idle, lacking a secure, trusted, and rewarding way to share their compute power. There's no decentralized, user-friendly platform that connects those who need computing with those who can provide it!
@@ -33,7 +34,8 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
     <img src="assets/ChatGPT Image May 29, 2025 at 05_23_34 PM.png" alt="Watch the Demo Video" width="720">
   </a>
 </p>
-[👉 Watch Demo](https://www.youtube.com/watch?v=TOljqkl3aoM)
+🔗 [Watch the Demo](https://www.youtube.com/watch?v=TOljqkl3aoM)
+
 
 ## Architecture
 <p align="center">
@@ -156,6 +158,8 @@ pip install -r requirements.txt
 uvicorn chat:app --reload
 uvicorn terminal:app --reload
 python main.py
+cd listing
+python app.py
 ```
 
 
