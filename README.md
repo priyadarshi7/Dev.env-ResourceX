@@ -28,8 +28,9 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 ⚡ For Providers like Y: Turn idle hardware into income. Securely share resources, powered by blockchain and zero-knowledge proofs.
 
 ![Project Overview](upload-project-overview-image-here)
+<img src="path-to-image" alt="Alt text" width="720" />
 
-![Resource Exchange Flow](<img src="assets/Screenshot 2025-05-29 023032.png">)
+
 ---
 
 ## 📚 Table of Contents
