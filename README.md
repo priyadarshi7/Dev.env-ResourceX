@@ -28,7 +28,7 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 ⚡ For Providers like Y: Turn idle hardware into income. Securely share resources, powered by blockchain and zero-knowledge proofs.
 
 ![Project Overview](upload-project-overview-image-here)
-<img src="assets/Screenshot 2025-05-29 023032.png" alt="Alt text" width="720"/>
+<img src="assets/ChatGPT Image May 29, 2025, 04_42_22 PM.png" alt="Alt text" width="720"/>
 
 
 ---
