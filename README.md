@@ -11,8 +11,14 @@ No incentive or platform to contribute unused resources
 Privacy & trust concerns with existing peer-to-peer systems
 Exclusion of developers from under-resourced regions
 
+***Case-Study***
+Meet Person X – a CS student pushing their AI model to improve, but stuck at 60% accuracy. The lab’s full, cloud credits are gone, and deadlines are closing in.
 
-**Dev.env-ResourceX** is a modular, multi-language development environment and resource exchange manager. It provides a structured backend, frontend, and model management system, aiming to streamline development workflows for projects involving JavaScript, Python, and other technologies.
+Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) that mostly sits idle.
+
+🌀 For Users like X: Affordable, on-demand access to GPU, CPU, and storage—no middlemen, no inflated costs.
+
+⚡ For Providers like Y: Turn idle hardware into income. Securely share resources, powered by blockchain and zero-knowledge proofs.
 
 ![Project Overview](upload-project-overview-image-here)
 
