@@ -1,9 +1,10 @@
 # Dev.env-ResourceX
 <p align="center">
   <a href="https://www.youtube.com/watch?v=TOljqkl3aoM" target="_blank">
-    <img src="https://chatgpt.com/s/m_68384504394c8191bdc3a7dc28c3ffd3" alt="Watch the Demo Video" width="720">
+    <img src="assets/ChatGPT Image May 29, 2025 at 03_26_37 PM.png" alt="Watch the Demo Video" width="720">
   </a>
 </p>
+
 
 Watch how ResourceX discovers idle compute resources, distributes demanding workloads like AI training and 3D rendering, and returns results securely — fully automated, fully decentralized!
 
