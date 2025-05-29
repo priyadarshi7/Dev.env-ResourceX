@@ -21,7 +21,7 @@ Dev.env-ResourceX is not just a modular development environment—it's also a **
 
 ![Resource Exchange Flow](upload-resource-exchange-diagram-here)
 
-🎥 [Watch the Demo Video](insert-demo-video-link-here)
+🎥 [Watch the Demo Video](https://www.youtube.com/watch?v=TOljqkl3aoM)
 
 ---
 
