@@ -29,8 +29,7 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 
 ![Project Overview](upload-project-overview-image-here)
 
-![Resource Exchange Flow](assets/Screenshot 2025-05-29 023032.png)
-
+![Resource Exchange Flow](<img src="assets/Screenshot 2025-05-29 023032.png">)
 ---
 
 ## 📚 Table of Contents
