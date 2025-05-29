@@ -43,7 +43,7 @@ Dev.env-ResourceX is not just a modular development environment—it's also a **
 ## 🚀 Features
 
 * **Modular Design**: Backend, frontend, and models are organized for scalability.
-* **Multi-language Support**: JavaScript (Node.js) backend, Python models, and HTML/JS frontend.
+* **Multi-language Support**: JavaScript (Node.js) backend, Python models, and React frontend.
 * **Resource Management**: Easily manage development resources and dependencies.
 * **Resource Exchange System**: Collaborative and scalable resource sharing.
 
