@@ -50,12 +50,13 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 
 * [Features](#features)
 * [Project Structure](#project-structure)
+* [Requirements](#requirements)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Requirements](#requirements)
+
 
 ---
-## 🚀 Features
+## 🔄 Features
 
 * **Modular Design**: Backend, frontend, and models are organized for scalability.
 * **Multi-language Support**: JavaScript (Node.js) backend, Python models, and React frontend.
@@ -117,6 +118,13 @@ npm install
 If using Blender scripts, ensure Blender is installed and properly configured.
 
 ---
+## 📦 Requirements
+
+* Node.js & npm
+* Python 3.8+ (for models)
+* Blender (optional, for Blender scripts)
+* Other dependencies as specified in `package.json` or `requirements.txt`
+---
 
 ## 🧩 Usage
 
@@ -142,14 +150,13 @@ npm run dev
 
 Use or train models as described in the `models/` directory's documentation.
 
-> **Note:** Refer to individual folder README files (if available) for detailed instructions.
+```bash
+cd models
+pip install 0r requirements.txt
+python main.py
+```
+
 
 ---
 
-## 📦 Requirements
 
-* Node.js & npm
-* Python 3.8+ (for models)
-* Blender (optional, for Blender scripts)
-* Other dependencies as specified in `package.json` or `requirements.txt`
->>>>>>> 3a414509462d00d915f7bf789b227b9780b53972
