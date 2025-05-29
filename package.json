@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cloudinary": "^2.6.0",
+    "node-fetch": "^3.3.2"
+  }
+}
