@@ -33,8 +33,7 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
     <img src="assets/ChatGPT Image May 29, 2025 at 05_23_34 PM.png" alt="Watch the Demo Video" width="720">
   </a>
 </p>
-[![Watch the Demo Video](https://img.youtube.com/vi/TOljqkl3aoM/maxresdefault.jpg)](https://www.youtube.com/watch?v=TOljqkl3aoM)
-
+[👉 Watch Demo](https://www.youtube.com/watch?v=TOljqkl3aoM)
 
 ## Architecture
 <p align="center">
