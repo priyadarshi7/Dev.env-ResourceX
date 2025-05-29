@@ -29,13 +29,7 @@ Across town, Person Y – a freelancer with a powerful PC (RTX 4080, 64GB RAM) t
 
 ![Project Overview](upload-project-overview-image-here)
 
-![Resource Exchange Flow](upload-resource-exchange-diagram-here)
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=TOljqkl3aoM" target="_blank">
-    <img src="https://www.youtube.com/watch?v=TOljqkl3aoM/0.jpg" alt="Watch the Demo Video" width="720">
-  </a>
-</p>
+![Resource Exchange Flow](assets/Screenshot 2025-05-29 023032.png)
 
 ---
 
