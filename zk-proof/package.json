@@ -1,0 +1,43 @@
+{
+  "name": "zk-code-deployment",
+  "version": "1.0.0",
+  "description": "Zero Knowledge Proof Smart Contract for Code Deployment on Solana",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "prettier --write .",
+    "lint": "prettier --check .",
+    "test": "anchor test",
+    "build": "anchor build",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet",
+    "deploy:mainnet": "anchor deploy --provider.cluster mainnet-beta",
+    "setup-circuit": "bash scripts/setup_circuit.sh",
+    "generate-keys": "bash scripts/generate_keys.sh",
+    "clean": "anchor clean && rm -rf node_modules target"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.28.0",
+    "@solana/web3.js": "^1.78.0",
+    "@solana/spl-token": "^0.3.8",
+    "snarkjs": "^0.7.0",
+    "circomlib": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^18.0.0",
+    "chai": "^4.3.0",
+    "mocha": "^9.2.0",
+    "prettier": "^2.8.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.9.0"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "zero-knowledge",
+    "smart-contract",
+    "blockchain"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

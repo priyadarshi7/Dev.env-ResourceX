@@ -1,0 +1,37 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+zk_code_deployment = "ZKDep1oyMent1111111111111111111111111111111"
+
+[programs.devnet]
+zk_code_deployment = "ZKDep1oyMent1111111111111111111111111111111"
+
+[programs.mainnet]  
+zk_code_deployment = "ZKDep1oyMent1111111111111111111111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[test]
+startup_wait = 5000
+shutdown_wait = 2000
+upgradeable = false
+
+[[test.genesis]]
+address = "ZKDep1oyMent1111111111111111111111111111111"
+program = "target/deploy/zk_code_deployment.so"
+
+[test.validator]
+url = "https://api.devnet.solana.com"
+clone = [
+    { address = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA" }
+]

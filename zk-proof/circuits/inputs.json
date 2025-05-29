@@ -1,0 +1,8 @@
+{
+  "code": [1, 2, 3, 4, 5],
+  "salt": 12345,
+  "max_compute_units": 1000,
+  "max_memory_usage": 1024,
+  "code_category": 0,
+  "security_level": 1
+}
